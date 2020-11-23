@@ -9,9 +9,9 @@ public class Java201123_1 {
             int x=(int)(Math.random()*100%100);
             int y=(int)(Math.random()*100%100);
             if (num1==1){
-                System.out.println(""+x);
+                System.out.println("x坐标"+x+"\n"+"y坐标"+y);
             }else {
-                System.out.println(""+y);
+                System.out.println("无效数值");
             }
         }
     }
