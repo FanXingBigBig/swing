@@ -11,7 +11,7 @@ public class Java201123_1 {
             if (num1==1){
                 System.out.println("x坐标"+x+"\n"+"y坐标"+y);
             }else {
-                System.out.println("无效数值");
+                System.out.println("无效数值,请输入1");
             }
         }
     }
