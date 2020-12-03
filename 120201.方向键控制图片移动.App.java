@@ -32,6 +32,7 @@ public class App {
     }
     //显示窗体方法
     void go(){
+        myPanel.setLayout(null);
         java.net.URL imgURL1 = App.class.getResource("img/plane.png");
         label_plane.setIcon(new ImageIcon(imgURL1));
         label_plane.setBounds(190,500,128,128);
