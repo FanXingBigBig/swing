@@ -28,6 +28,7 @@ public class App {
     }
 
     void go(){
+        //文本框
         textArea_a.setBounds(100,100,100,100);
         textArea_b.setBounds(100,300,100,100);
         textArea_a.setBackground(Color.ORANGE);
