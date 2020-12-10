@@ -4,7 +4,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 /*
- * 112501.上下键敲击事件1.APP.java
+ * 112401.键盘敲击.APP.java
  * */
 public class App {
     private javax.swing.JPanel JPanel = new JPanel();
