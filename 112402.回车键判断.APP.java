@@ -16,7 +16,7 @@ public class App2 {
     JTextArea textArea_b = new JTextArea();
 
     public App2() {
-        //键盘
+        //键盘 输入可以回答正确，输入其他回答错误
         textArea_a.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
@@ -36,7 +36,7 @@ public class App2 {
                 }
             }
         });
-        //单击
+        //单击就清空文本框
         textArea_a.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -50,6 +50,7 @@ public class App2 {
     }
 
     void go(){
+        //文本框提示可以吗？
         textArea_a.setText("可以吗？");
         textArea_a.setBounds(100,100,100,100);
         textArea_a.setBackground(Color.ORANGE);
